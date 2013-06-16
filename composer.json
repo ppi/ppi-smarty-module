@@ -1,0 +1,17 @@
+{
+    "name": "ppi/smarty-module",
+    "description": "Smarty3 template engine module for PPI2",
+    "keywords": ["ppi", "smarty", "templating", "view"],
+    "homepage": "https://github.com/ppi/ppi-smarty-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vítor Brandão",
+            "email": "vitor@noiselabs.org"
+        }
+    ],
+    "require": {
+        "ppi/framework": "dev-2.1-noiselabs"
+    },
+    "minimum-stability": "dev"
+}
