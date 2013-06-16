@@ -10,8 +10,16 @@
             "email": "vitor@noiselabs.org"
         }
     ],
+    "support": {
+        "irc": "irc://irc.freenode.org/ppi",
+        "issues": "https://github.com/ppi/ppi-smarty-module/issues"
+    },
     "require": {
         "ppi/framework": "dev-2.1-noiselabs"
     },
+    "autoload": {
+        "psr-0": { "PPI\\SmartyModule": "" }
+    },
+    "target-dir": "PPI/SmartyModule",
     "minimum-stability": "dev"
 }
