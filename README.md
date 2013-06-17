@@ -63,7 +63,8 @@ This module is licensed under the MIT License. See the [LICENSE file](https://gi
 Authors
 -------
 
-Vítor Brandão - <vitor@ppi.io> ~ [twitter.com/noiselabs](http://twitter.com/noiselabs) ~ [noiselabs.org](http://noiselabs.org)
+* Paul Dragoonis - <paul@ppi.io> ~ [twitter.com/dr4goonis](http://twitter.com/dr4goonis)
+* Vítor Brandão - <vitor@ppi.io> ~ [twitter.com/noiselabs](http://twitter.com/noiselabs) ~ [noiselabs.org](http://noiselabs.org)
 
 See also the list of [contributors](https://github.com/ppi/ppi-smarty-module/contributors) who participated in this project.
 
