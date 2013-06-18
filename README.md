@@ -5,9 +5,16 @@ PPI Smarty Module
 [@ppi]:     http://ppi.io/          "PPI Framework - The PHP Meta Framework!"
 [@smarty]:  http://www.smarty.net/  "The compiling PHP template engine"
 
-Smarty3 template engine module for PPI2.
+Smarty3[@smarty] template engine module for [PPI][@ppi].
 
 [![Build Status](https://secure.travis-ci.org/ppi/ppi-smarty-module.png)](http://travis-ci.org/ppi/ppi-smarty-module)
+
+Smarty
+------
+
+<img src="https://www.arvixe.com/images/landing_pages/smarty_hosting.png" height="100" />
+
+> Smarty is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic. This implies that PHP code is application logic, and is separated from the presentation.
 
 Requirements
 ------------
@@ -18,7 +25,7 @@ Requirements
 Installation (Composer)
 -----------------------
 
-### 0. Install Composer
+### 1. Install Composer
 
 If you don't have Composer yet, download it following the instructions on
 http://getcomposer.org/ or just run the following command:
@@ -27,25 +34,15 @@ http://getcomposer.org/ or just run the following command:
 curl -s http://getcomposer.org/installer | php
 ```
 
-### 1. Add this package to your composer.json
-
-```js
-{
-    "require": {
-        "ppi/smarty-module": "dev-master"
-    }
-}
-```
-
-Now tell composer to download the module by running the command:
+### 2. Add ppi/smarty-module to your composer.json and install
 
 ``` bash
-$ php composer.phar update ppi/smarty-module
+$ php composer.phar require ppi/smarty-module dev-master
 ```
 
 Composer will install the module to your project's `vendor/ppi` directory.
 
-### 2. Enable the module
+### 3. Enable the module
 
 Enable this module by editing `app/config/modules.yml`:
 
@@ -72,3 +69,10 @@ Submitting bugs and feature requests
 ------------------------------------
 
 Bugs and feature requests are tracked on [GitHub](https://github.com/ppi/ppi-smarty-module/issues).
+
+About PPI
+---------
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Ppi-framework-logo.png" width="74" height="50" />
+
+> PPI is an open source PHP meta-framework. It has taken the good bits from Symfony2, ZendFramework2 & Doctrine2 and combined them together to create a solid and very easy web application framework. It can be considered the boilerplate of PHP frameworks.
