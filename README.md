@@ -9,9 +9,12 @@ Smarty3[@smarty] template engine module for [PPI2][@ppi].
 
 [![Build Status](https://secure.travis-ci.org/ppi/ppi-smarty-module.png)](http://travis-ci.org/ppi/ppi-smarty-module)
 
+Smarty
+------
+
 <img src="https://www.arvixe.com/images/landing_pages/smarty_hosting.png" height="100" />
 
-> **Smarty** is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic.
+> Smarty is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic.
 > This implies that PHP code is application logic, and is separated from the presentation.
 >
 > Some of Smarty's features:
