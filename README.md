@@ -5,16 +5,30 @@ PPI Smarty Module
 [@ppi]:     http://ppi.io/          "PPI Framework - The PHP Meta Framework!"
 [@smarty]:  http://www.smarty.net/  "The compiling PHP template engine"
 
-Smarty3[@smarty] template engine module for [PPI][@ppi].
+Smarty3[@smarty] template engine module for [PPI2][@ppi].
 
 [![Build Status](https://secure.travis-ci.org/ppi/ppi-smarty-module.png)](http://travis-ci.org/ppi/ppi-smarty-module)
 
-Smarty
-------
-
 <img src="https://www.arvixe.com/images/landing_pages/smarty_hosting.png" height="100" />
 
-> Smarty is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic. This implies that PHP code is application logic, and is separated from the presentation.
+> **Smarty** is a template engine for PHP, facilitating the separation of presentation (HTML/CSS) from application logic.
+> This implies that PHP code is application logic, and is separated from the presentation.
+>
+> Some of Smarty's features:
+>
+> * It is extremely fast.
+> * It is efficient since the PHP parser does the dirty work.
+> * No template parsing overhead, only compiles once.
+> * It is smart about recompiling only the template files that have changed.
+> * You can easily create your own custom functions and variable modifiers, so the template language is extremely extensible.
+> * Configurable template `{delimiter}` tag syntax, so you can use `{$foo}, {{$foo}}, <!--{$foo}-->`, etc.
+> * The `{if}..{elseif}..{else}..{/if}` constructs are passed to the PHP parser, so the `{if...}` expression syntax can be as simple or as complex an evaluation as you like.
+> * Allows unlimited nesting of sections, if's etc.
+> * Built-in caching support.
+> * Arbitrary template sources.
+> * Template Inheritance for easy management of template content.
+> * Plugin architecture.
+
 
 Requirements
 ------------
@@ -22,8 +36,8 @@ Requirements
 * [PHP][@php] 5.3.3 and up
 * [PPI Framework 2][@ppi] (2.1.x)
 
-Installation (Composer)
------------------------
+Installation
+------------
 
 ### 1. Install Composer
 
