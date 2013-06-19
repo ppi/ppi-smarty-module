@@ -5,7 +5,7 @@ PPI Smarty Module
 [@ppi]:     http://ppi.io/          "PPI Framework - The PHP Meta Framework!"
 [@smarty]:  http://www.smarty.net/  "The compiling PHP template engine"
 
-Smarty3[@smarty] template engine module for [PPI2][@ppi].
+[Smarty3][@smarty] template engine module for [PPI2][@ppi].
 
 [![Build Status](https://secure.travis-ci.org/ppi/ppi-smarty-module.png)](http://travis-ci.org/ppi/ppi-smarty-module)
 
