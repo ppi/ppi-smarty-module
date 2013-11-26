@@ -1,0 +1,4 @@
+options:
+    delimiter: "{"
+    more_options:
+        hey: "hi"

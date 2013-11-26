@@ -16,7 +16,7 @@
     },
     "require": {
         "ppi/framework": "dev-2.1-noiselabs",
-        "noiselabs/smarty-bundle": "1.2.*@stable"
+        "noiselabs/smarty-bundle": "dev-develop"
     },
     "autoload": {
         "psr-0": { "PPI\\SmartyModule": "" }
