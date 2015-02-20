@@ -22,8 +22,6 @@ return array(
         'default_resource_type' => 'file',
         'template_dir'          => '%app.root_dir%/resources/views',
         'use_include_path'      => false,
-        'use_sub_dirs'          => true
-    )
+        'use_sub_dirs'          => true,
+    ),
 );
-
-?>
