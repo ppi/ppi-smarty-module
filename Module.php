@@ -4,7 +4,7 @@
  *
  * @category    PPI
  * @package     SmartyModule
- * @copyright   Copyright (c) 2011-2013 Paul Dragoonis <paul@ppi.io>
+ * @copyright   Copyright (c) 2011-2015 Paul Dragoonis <paul@ppi.io>
  * @license     http://opensource.org/licenses/mit-license.php MIT
  * @link        http://www.ppi.io
  */
@@ -36,7 +36,7 @@ class Module extends AbstractModule
      */
     public function getName()
     {
-        return 'PPISmartyModule';
+        return 'SmartyModule';
     }
 
     /**
@@ -46,8 +46,7 @@ class Module extends AbstractModule
     {
         // return array('smarty' => $this->loadConfig('smarty.php'));
         // or
-        return array('smarty' => require_once __DIR__.'/resources/config/smarty.php');
-
+        return array('smarty' => require_once __DIR__ . '/resources/config/smarty.php');
     }
 
     /**
@@ -55,7 +54,7 @@ class Module extends AbstractModule
      */
     public function getServiceConfig2()
     {
-            /*
+        /*
          * Smarty Engine.
          *
         $serviceManager->setFactory('templating.engine.smarty', function($serviceManager) use ($appCacheDir) {
