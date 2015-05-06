@@ -15,8 +15,8 @@
         "issues": "https://github.com/ppi/ppi-smarty-module/issues"
     },
     "require": {
-        "ppi/framework": "dev-develop",
-        "noiselabs/smarty-bundle": "dev-develop"
+        "ppi/framework": "dev-master",
+        "noiselabs/smarty-bundle": "dev-master"
     },
     "autoload": {
         "psr-0": { "PPI\\SmartyModule": "" }
