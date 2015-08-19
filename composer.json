@@ -22,5 +22,10 @@
         "psr-0": { "PPI\\SmartyModule": "" }
     },
     "target-dir": "PPI/SmartyModule",
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "2.1.0-alpha2"
+        }
+    }    
 }
